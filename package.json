@@ -1,1 +1,29 @@
 tujje-safari-chatbot-backend/package.json
+{
+  "name": "tujje-safari-chatbot-backend",
+  "version": "1.0.0",
+  "description": "AI Chatbot backend for TUJJE SAFARIS website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "chatbot",
+    "safari",
+    "ai",
+    "tujje safaris",
+    "openai"
+  ],
+  "author": "TUJJE SAFARIS",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "openai": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
